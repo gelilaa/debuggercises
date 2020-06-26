@@ -1,12 +1,12 @@
 # Debuggercises 
 
-> 6/26/2020, 5:38:04 PM 
+> 6/26/2020, 5:52:36 PM 
 
 ## [exercises](../../README.md)/[05-functions-101](../README.md)/1-scrambles 
 
 - [/1-write-expected.js](#1-write-expectedjs) - _pass_ 
 - [/2-write-arguments.js](#2-write-argumentsjs) - _pass_ 
-- [/3-write-function.js](#3-write-functionjs) - _fail_ 
+- [/3-write-function.js](#3-write-functionjs) - _pass_ 
 ---
 
 ## /1-write-expected.js 
@@ -133,14 +133,14 @@ console.assert(_6_actual === _6_expect, 'Test 6');
 
 ## /3-write-function.js 
 
-> fail 
+> pass 
 >
 > [review source](../../../exercises/05-functions-101/1-scrambles/3-write-function.js)
 
 ```txt
 + PASS: Test 1
 + PASS: Test 2
-- FAIL: Test 3
++ PASS: Test 3
 ```
 
 ```js
@@ -159,7 +159,7 @@ const _2_expect = "zxy";
 const _2_actual = scramble('x', 'y', 'z');
 console.assert(_2_actual === _2_expect, 'Test 2');
 
-const _3_expect = "zxy";
+const _3_expect = "yxz";
 const _3_actual = scramble('x', 'z', 'y');
 console.assert(_3_actual === _3_expect, 'Test 3');
 
