@@ -1,19 +1,28 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../README.md)/08-functions-201 
 
-- [/0-example.js](#0-examplejs)  
+- [/0-example.js](#0-examplejs) - _pass_ 
 - [/1-exercise.js](#1-exercisejs) - _incomplete_ 
 - [/2-exercise.js](#2-exercisejs) - _incomplete_ 
 ---
 
 ## /0-example.js 
 
->  
+> pass 
 >
-> [review source](..\..\exercises\08-functions-201/0-example.js)
+> [review source](../../exercises/08-functions-201/0-example.js)
+
+```txt
++ PASS: Test 1 Array
++ PASS: Test 1 Loop
++ PASS: Test 2 Array
++ PASS: Test 2 Loop
++ PASS: Test 3 Array
++ PASS: Test 3 Loop
+```
 
 ```js
 'use strict';
@@ -85,20 +94,20 @@ console.assert(_3_actualLoop === _3_expect, 'Test 3 Loop');
 
 > incomplete 
 >
-> [review source](..\..\exercises\08-functions-201/1-exercise.js)
+> [review source](../../exercises/08-functions-201/1-exercise.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at withAnd (  ...  \exercises\08-functions-201\1-exercise.js:12:3)
-    at Object.<anonymous> (  ...  \exercises\08-functions-201\1-exercise.js:39:20)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
-    at Object.<anonymous> (  ...  \scripts\review.js:119:1) 
+    at withAnd (  ...  /exercises/08-functions-201/1-exercise.js:12:3)
+    at Object.<anonymous> (  ...  /exercises/08-functions-201/1-exercise.js:39:20)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
 ```
 
 ```js
@@ -176,20 +185,20 @@ console.assert(_4_actualB === _4_expect, 'Test 4 B');
 
 > incomplete 
 >
-> [review source](..\..\exercises\08-functions-201/2-exercise.js)
+> [review source](../../exercises/08-functions-201/2-exercise.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at withAnd (  ...  \exercises\08-functions-201\2-exercise.js:12:3)
-    at Object.<anonymous> (  ...  \exercises\08-functions-201\2-exercise.js:38:20)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
-    at Object.<anonymous> (  ...  \scripts\review.js:119:1) 
+    at withAnd (  ...  /exercises/08-functions-201/2-exercise.js:12:3)
+    at Object.<anonymous> (  ...  /exercises/08-functions-201/2-exercise.js:38:20)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
 ```
 
 ```js

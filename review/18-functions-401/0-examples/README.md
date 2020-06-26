@@ -1,20 +1,29 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../../README.md)/[18-functions-401](../README.md)/0-examples 
 
 - [/0-implcit-return.js](#0-implcit-returnjs)  
-- [/and.js](#andjs)  
-- [/complex.js](#complexjs)  
-- [/ternary.js](#ternaryjs)  
+- [/and.js](#andjs) - _pass_ 
+- [/complex.js](#complexjs) - _pass_ 
+- [/ternary.js](#ternaryjs) - _pass_ 
 ---
 
 ## /0-implcit-return.js 
 
 >  
 >
-> [review source](..\..\..\exercises\18-functions-401\0-examples/0-implcit-return.js)
+> [review source](../../../exercises/18-functions-401/0-examples/0-implcit-return.js)
+
+```txt
+LOG: body and return 1:  string  boolean
+LOG: body and return 2:  string  object
+LOG: implicit return 1:  string  boolean
+LOG: implicit return 2:  string  object
+LOG: common mistake 1:  undefined  undefined
+LOG: common mistake 1:  undefined  undefined
+```
 
 ```js
 'use strict';
@@ -84,9 +93,16 @@ console.log('common mistake 1:', typeof looksLikeImplicitButIsNot1, looksLikeImp
 
 ## /and.js 
 
->  
+> pass 
 >
-> [review source](..\..\..\exercises\18-functions-401\0-examples/and.js)
+> [review source](../../../exercises/18-functions-401/0-examples/and.js)
+
+```txt
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
+```
 
 ```js
 'use strict';
@@ -147,9 +163,16 @@ console.assert(_4_explicit1 === _4_implicit && _4_explicit2 === _4_implicit, 'Te
 
 ## /complex.js 
 
->  
+> pass 
 >
-> [review source](..\..\..\exercises\18-functions-401\0-examples/complex.js)
+> [review source](../../../exercises/18-functions-401/0-examples/complex.js)
+
+```txt
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
+```
 
 ```js
 'use strict';
@@ -222,9 +245,16 @@ console.assert(_4_explicit1 === _4_implicit && _4_explicit2 === _4_implicit, 'Te
 
 ## /ternary.js 
 
->  
+> pass 
 >
-> [review source](..\..\..\exercises\18-functions-401\0-examples/ternary.js)
+> [review source](../../../exercises/18-functions-401/0-examples/ternary.js)
+
+```txt
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
+```
 
 ```js
 'use strict';

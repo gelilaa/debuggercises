@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../README.md)/12-functions-301 
 
@@ -13,6 +13,6 @@
   - [/3-pass-tests.js](./1-fill-in-the-blanks/README.md#3-pass-testsjs) - _incomplete_ 
   - [/4-pass-tests.js](./1-fill-in-the-blanks/README.md#4-pass-testsjs) - _incomplete_ 
 - [/2-fix-the-bugs](./2-fix-the-bugs/README.md)
-  - [/1.js](./2-fix-the-bugs/README.md#1js)  
+  - [/1.js](./2-fix-the-bugs/README.md#1js) - _fail_ 
   - [/2.js](./2-fix-the-bugs/README.md#2js) - _error_ 
-  - [/3.js](./2-fix-the-bugs/README.md#3js)  
+  - [/3.js](./2-fix-the-bugs/README.md#3js) - _fail_ 

@@ -1,19 +1,26 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../../README.md)/[11-refactoring-conditionals](../README.md)/1-statement-to-operator 
 
-- [/1-if-else.js](#1-if-elsejs)  
-- [/2-if-else-if-else.js](#2-if-else-if-elsejs)  
-- [/3-nested.js](#3-nestedjs)  
+- [/1-if-else.js](#1-if-elsejs) - _pass_ 
+- [/2-if-else-if-else.js](#2-if-else-if-elsejs) - _pass_ 
+- [/3-nested.js](#3-nestedjs) - _pass_ 
 ---
 
 ## /1-if-else.js 
 
->  
+> pass 
 >
-> [review source](..\..\..\exercises\11-refactoring-conditionals\1-statement-to-operator/1-if-else.js)
+> [review source](../../../exercises/11-refactoring-conditionals/1-statement-to-operator/1-if-else.js)
+
+```txt
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
+```
 
 ```js
 'use strict';
@@ -55,9 +62,18 @@ console.assert(_6_actual === _6_expect, 'Test 4');
 
 ## /2-if-else-if-else.js 
 
->  
+> pass 
 >
-> [review source](..\..\..\exercises\11-refactoring-conditionals\1-statement-to-operator/2-if-else-if-else.js)
+> [review source](../../../exercises/11-refactoring-conditionals/1-statement-to-operator/2-if-else-if-else.js)
+
+```txt
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
+```
 
 ```js
 'use strict';
@@ -110,9 +126,20 @@ console.assert(_6_actual === _6_expect, 'Test 6');
 
 ## /3-nested.js 
 
->  
+> pass 
 >
-> [review source](..\..\..\exercises\11-refactoring-conditionals\1-statement-to-operator/3-nested.js)
+> [review source](../../../exercises/11-refactoring-conditionals/1-statement-to-operator/3-nested.js)
+
+```txt
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
++ PASS: Test 7
++ PASS: Test 8
+```
 
 ```js
 'use strict';

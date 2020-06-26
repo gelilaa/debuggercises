@@ -1,19 +1,23 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../../README.md)/[16-for](../README.md)/examples 
 
-- [/1-for-many-lines.js](#1-for-many-linesjs)  
-- [/2-for-one-line.js](#2-for-one-linejs)  
+- [/1-for-many-lines.js](#1-for-many-linesjs) - _pass_ 
+- [/2-for-one-line.js](#2-for-one-linejs) - _pass_ 
 - [/3-for-infinite.js](#3-for-infinitejs) - _too much iteration_ 
 ---
 
 ## /1-for-many-lines.js 
 
->  
+> pass 
 >
-> [review source](..\..\..\exercises\16-for\examples/1-for-many-lines.js)
+> [review source](../../../exercises/16-for/examples/1-for-many-lines.js)
+
+```txt
++ PASS: Test 1
+```
 
 ```js
 // 1: use strict
@@ -57,9 +61,13 @@ console.assert(result === 6, 'Test 1');
 
 ## /2-for-one-line.js 
 
->  
+> pass 
 >
-> [review source](..\..\..\exercises\16-for\examples/2-for-one-line.js)
+> [review source](../../../exercises/16-for/examples/2-for-one-line.js)
+
+```txt
++ PASS: Test 1
+```
 
 ```js
 // 1: declare and assign result
@@ -115,20 +123,40 @@ console.assert(result === 6, 'Test 1');
 
 > too much iteration 
 >
-> [review source](..\..\..\exercises\16-for\examples/3-for-infinite.js)
+> [review source](../../../exercises/16-for/examples/3-for-infinite.js)
 
 ```txt
+LOG: C  0
+LOG: C  1
+LOG: C  2
+LOG: C  3
+LOG: C  4
+LOG: C  5
+LOG: C  6
+LOG: C  7
+LOG: C  8
+LOG: C  9
+LOG: C  10
+LOG: C  11
+LOG: C  12
+LOG: C  13
+LOG: C  14
+LOG: C  15
+LOG: C  16
+LOG: C  17
+LOG: C  18
+LOG: C  19
 UNCAUGHT: Error: Loop exceeded 20 iterations
-    at Object.<anonymous> (  ...  \exercises\16-for\examples\3-for-infinite.js:18:65)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
-    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
+    at Object.<anonymous> (  ...  /exercises/16-for/examples/3-for-infinite.js:18:65)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
 ```
 
 ```js
