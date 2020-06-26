@@ -3,8 +3,13 @@
 // write a function that behaves the same as &&
 //  ... without using &&, only using ? :
 const and = (left, right) => {
-  return _ ? _ : _;
-};
+
+const parLeft = Boolean(left);
+const isFalse=parLeft=== false;
+return isFalse ? left : right;
+
+  
+}
 
 const _1_expect = 0;
 const _1_actual = and(0, 0);

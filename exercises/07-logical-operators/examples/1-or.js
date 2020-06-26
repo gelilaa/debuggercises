@@ -6,6 +6,7 @@
   - if the left is truthy, it returns the left value
   - if the left is falsy, it returns the right value
 */
+// in other word it always chooses the true value.
 
 const or1 = 0 || 0;
 console.log(1, typeof or1, or1);
@@ -31,5 +32,5 @@ console.log(7, typeof or7, or7);
 const or8 = NaN || undefined;
 console.log(8, typeof or8, or8);
 
-const or9 = 'poiu' || 'asdf';
+const or9 = Infinity || 'asdf';
 console.log(9, typeof or9, or9);

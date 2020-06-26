@@ -40,7 +40,7 @@ const _5_actual = mystery('', '');
 console.assert(_5_actual === _5_expect, 'Test 5');
 
 const _6_expect = 'path 3';
-const _6_actual = mystery('_6_expect', '_6_actual');
+const _6_actual = mystery('_6_expect', '_6_actual'); 
 console.assert(_6_actual === _6_expect, 'Test 6');
 
 // path 4

@@ -1,7 +1,7 @@
 {
   "buttons": [
     {
-      "console": true
+      "console": false
     },
     {
       "debugger": true
