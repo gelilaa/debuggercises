@@ -1,37 +1,19 @@
 # Debuggercises 
 
-> 6/24/2020, 5:04:07 PM 
+> 26/06/2020, 19:32:01 
 
 ## [exercises](../../README.md)/[19-implicit-coercion](../README.md)/3-replicate 
 
-- [/loose-inequality.js](#loose-inequalityjs) - _fail_ 
-- [/remainder.js](#remainderjs) - _fail_ 
-- [/unary-minus.js](#unary-minusjs) - _fail_ 
+- [/loose-inequality.js](#loose-inequalityjs)  
+- [/remainder.js](#remainderjs)  
+- [/unary-minus.js](#unary-minusjs)  
 ---
 
 ## /loose-inequality.js 
 
-> fail 
+>  
 >
-> [review source](../../../exercises/19-implicit-coercion/3-replicate/loose-inequality.js)
-
-```txt
-- FAIL: Test 1
-- FAIL: Test 2
-- FAIL: Test 3
-- FAIL: Test 4
-- FAIL: Test 5
-- FAIL: Test 6
-- FAIL: Test 7
-- FAIL: Test 8
-- FAIL: Test 9
-- FAIL: Test 10
-- FAIL: Test 11
-- FAIL: Test 12
-- FAIL: Test 13
-- FAIL: Test 14
-- FAIL: Test 15
-```
+> [review source](..\..\..\exercises\19-implicit-coercion\3-replicate/loose-inequality.js)
 
 ```js
 'use strict';
@@ -145,21 +127,9 @@ console.assert(_15_copy === _15_native, 'Test 15');
 
 ## /remainder.js 
 
-> fail 
+>  
 >
-> [review source](../../../exercises/19-implicit-coercion/3-replicate/remainder.js)
-
-```txt
-- FAIL: Test 1
-- FAIL: Test 2
-- FAIL: Test 3
-- FAIL: Test 4
-- FAIL: Test 5
-- FAIL: Test 6
-- FAIL: Test 7
-- FAIL: Test 8
-- FAIL: Test 9
-```
+> [review source](..\..\..\exercises\19-implicit-coercion\3-replicate/remainder.js)
 
 ```js
 'use strict';
@@ -236,21 +206,9 @@ console.assert(Object.is(_9_copy, _9_native), 'Test 9');
 
 ## /unary-minus.js 
 
-> fail 
+>  
 >
-> [review source](../../../exercises/19-implicit-coercion/3-replicate/unary-minus.js)
-
-```txt
-- FAIL: Test 1
-- FAIL: Test 2
-- FAIL: Test 3
-- FAIL: Test 4
-- FAIL: Test 5
-- FAIL: Test 6
-- FAIL: Test 7
-- FAIL: Test 8
-- FAIL: Test 9
-```
+> [review source](..\..\..\exercises\19-implicit-coercion\3-replicate/unary-minus.js)
 
 ```js
 'use strict';

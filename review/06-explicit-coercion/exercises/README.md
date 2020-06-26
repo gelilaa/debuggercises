@@ -1,32 +1,32 @@
 # Debuggercises 
 
-> 6/24/2020, 5:04:07 PM 
+> 26/06/2020, 19:32:01 
 
 ## [exercises](../../README.md)/[06-explicit-coercion](../README.md)/exercises 
 
 - [/1-write-expected.js](#1-write-expectedjs) - _incomplete_ 
 - [/2-write-arguments.js](#2-write-argumentsjs) - _incomplete_ 
-- [/3-write-function.js](#3-write-functionjs) - _fail_ 
+- [/3-write-function.js](#3-write-functionjs)  
 ---
 
 ## /1-write-expected.js 
 
 > incomplete 
 >
-> [review source](../../../exercises/06-explicit-coercion/exercises/1-write-expected.js)
+> [review source](..\..\..\exercises\06-explicit-coercion\exercises/1-write-expected.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/06-explicit-coercion/exercises/1-write-expected.js:13:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Object.<anonymous> (  ...  \exercises\06-explicit-coercion\exercises\1-write-expected.js:13:19)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -89,20 +89,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 > incomplete 
 >
-> [review source](../../../exercises/06-explicit-coercion/exercises/2-write-arguments.js)
+> [review source](..\..\..\exercises\06-explicit-coercion\exercises/2-write-arguments.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/06-explicit-coercion/exercises/2-write-arguments.js:14:27)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Object.<anonymous> (  ...  \exercises\06-explicit-coercion\exercises\2-write-arguments.js:14:27)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -163,21 +163,9 @@ console.assert(Object.is(_9_actual, _9_expect), 'Test 9');
 
 ## /3-write-function.js 
 
-> fail 
+>  
 >
-> [review source](../../../exercises/06-explicit-coercion/exercises/3-write-function.js)
-
-```txt
-- FAIL: Test 1
-- FAIL: Test 2
-- FAIL: Test 3
-- FAIL: Test 4
-- FAIL: Test 5
-- FAIL: Test 6
-- FAIL: Test 7
-- FAIL: Test 8
-- FAIL: Test 9
-```
+> [review source](..\..\..\exercises\06-explicit-coercion\exercises/3-write-function.js)
 
 ```js
 'use strict';

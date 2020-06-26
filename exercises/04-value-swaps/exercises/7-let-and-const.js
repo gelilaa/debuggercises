@@ -4,34 +4,40 @@
 // fill in the blanks for d and temp
 
 // leave this code as it is
-let a = 'y';
-let b = 'z';
-let c = 'x';
+let a = 2;
+let b = 3;
+let c = 1;
 let temp = null;
 
-temp = a;
-a = b;
-const d = a;
+temp = a;//2
+a = b;//3
+const d = a;//3
+// write your code below here
+a = c;//1
+b = temp;//2
+c = d;
 
-// write some code, be sure to use temp!
+
+
+
 
 
 
 
 // fill in in the _'s to pass the final assertions
 
-const isTrue1 = a === 'x';
+const isTrue1 = a === 1;
 console.assert(isTrue1, 'Test 1');
 
-const isTrue2 = b === 'y';
+const isTrue2 = b === 2;
 console.assert(isTrue2, 'Test 2');
 
-const isTrue3 = c === 'z';
+const isTrue3 = c === 3;
 console.assert(isTrue3, 'Test 3');
 
-const isTrue4 = d === _;
+const isTrue4 = d === 3;
 console.assert(isTrue4, 'Test 4');
 
-const isTrue5 = temp === _;
+const isTrue5 = temp === 2;
 console.assert(isTrue5, 'Test 5');
 

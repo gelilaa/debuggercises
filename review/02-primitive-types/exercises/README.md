@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/24/2020, 5:04:07 PM 
+> 26/06/2020, 19:32:01 
 
 ## [exercises](../../README.md)/[02-primitive-types](../README.md)/exercises 
 
@@ -11,24 +11,20 @@
 
 > incomplete 
 >
-> [review source](../../../exercises/02-primitive-types/exercises/fill-in-the-type.js)
+> [review source](..\..\..\exercises\02-primitive-types\exercises/fill-in-the-type.js)
 
 ```txt
-LOG: -- example --
-LOG: object  null
-LOG: object  null
-LOG: -- challenge1 --
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/02-primitive-types/exercises/fill-in-the-type.js:14:13)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Object.<anonymous> (  ...  \exercises\02-primitive-types\exercises\fill-in-the-type.js:14:13)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js

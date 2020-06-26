@@ -1,23 +1,17 @@
 # Debuggercises 
 
-> 6/24/2020, 5:04:07 PM 
+> 26/06/2020, 19:32:01 
 
 ## [exercises](../../README.md)/[04-value-swaps](../README.md)/example 
 
-- [/double-swap.js](#double-swapjs) - _pass_ 
+- [/double-swap.js](#double-swapjs)  
 ---
 
 ## /double-swap.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/04-value-swaps/example/double-swap.js)
-
-```txt
-+ PASS: Test 1
-+ PASS: Test 2
-+ PASS: Test 3
-```
+> [review source](..\..\..\exercises\04-value-swaps\example/double-swap.js)
 
 ```js
 'use strict';

@@ -1,30 +1,37 @@
 'use strict';
 
-let a = 'y';
-let b = 'z';
-let c = 'w';
-let d = 'x';
+let a = 3;
+let b = 4;
+let c = 1;
+let d = 2;
 let temp = null;
 
-// write some code, be sure to use temp!
+// write some code!
+temp = d;
+d = b;
+b = temp;
+temp = a;
+a = c;
+c = temp;
+
 
 
 
 
 // fill in the _ to pass the final assertions
 
-const isTrue1 = a === 'w';
+const isTrue1 = a === 1;//c
 console.assert(isTrue1, 'Test 1');
 
-const isTrue2 = b === 'x';
+const isTrue2 = b === 2;//d
 console.assert(isTrue2, 'Test 2');
 
-const isTrue3 = c === 'y';
+const isTrue3 = c === 3;//a
 console.assert(isTrue3, 'Test 3');
 
-const isTrue4 = d === 'z';
+const isTrue4 = d === 4;//b
 console.assert(isTrue4, 'Test 4');
 
-const isTrue5 = temp === _;
+const isTrue5 = temp === 3;
 console.assert(isTrue5, 'Test 5');
 

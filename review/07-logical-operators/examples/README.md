@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/24/2020, 5:04:07 PM 
+> 26/06/2020, 19:32:01 
 
 ## [exercises](../../README.md)/[07-logical-operators](../README.md)/examples 
 
@@ -16,21 +16,7 @@
 
 >  
 >
-> [review source](../../../exercises/07-logical-operators/examples/0-truthiness.js)
-
-```txt
-LOG: --- there are fewer falsy values than truthy values
-LOG: falsy  boolean  false
-LOG: falsy  string  
-LOG: falsy  number  NaN
-LOG: falsy  number  0
-LOG: falsy  object  null
-LOG: falsy  undefined  undefined
-LOG: --- any other value is truthy
-LOG: truthy  string   
-LOG: truthy  string  any other string
-LOG: truthy  number  -1
-```
+> [review source](..\..\..\exercises\07-logical-operators\examples/0-truthiness.js)
 
 ```js
 'use strict';
@@ -98,19 +84,7 @@ console.log(truthiness9, typeof value9, value9);
 
 >  
 >
-> [review source](../../../exercises/07-logical-operators/examples/1-or.js)
-
-```txt
-LOG: 1  number  0
-LOG: 2  number  1
-LOG: 3  number  1
-LOG: 4  number  1
-LOG: 5  string  asdf
-LOG: 6  string  asdf
-LOG: 7  boolean  true
-LOG: 8  undefined  undefined
-LOG: 9  string  poiu
-```
+> [review source](..\..\..\exercises\07-logical-operators\examples/1-or.js)
 
 ```js
 'use strict';
@@ -159,19 +133,7 @@ console.log(9, typeof or9, or9);
 
 >  
 >
-> [review source](../../../exercises/07-logical-operators/examples/2-and.js)
-
-```txt
-LOG: 1  number  0
-LOG: 2  number  0
-LOG: 3  number  0
-LOG: 4  number  1
-LOG: 5  string  
-LOG: 6  string  
-LOG: 7  boolean  false
-LOG: 8  number  NaN
-LOG: 9  string  asdf
-```
+> [review source](..\..\..\exercises\07-logical-operators\examples/2-and.js)
 
 ```js
 'use strict';
@@ -221,19 +183,7 @@ console.log(9, typeof and9, and9);
 
 >  
 >
-> [review source](../../../exercises/07-logical-operators/examples/3-ternary.js)
-
-```txt
-LOG: 1  A
-LOG: 2  A
-LOG: 3  A
-LOG: 4  B
-LOG: 5  B
-LOG: 6  B
-LOG: 7  B
-LOG: 8  B
-LOG: 9  B
-```
+> [review source](..\..\..\exercises\07-logical-operators\examples/3-ternary.js)
 
 ```js
 'use strict';
@@ -283,19 +233,7 @@ console.log(9, ternary9);
 
 >  
 >
-> [review source](../../../exercises/07-logical-operators/examples/4-not.js)
-
-```txt
-LOG: 1  boolean  true
-LOG: 2  boolean  true
-LOG: 3  boolean  true
-LOG: 4  boolean  true
-LOG: 5  boolean  true
-LOG: 6  boolean  true
-LOG: 7  boolean  false
-LOG: 8  boolean  false
-LOG: 9  boolean  false
-```
+> [review source](..\..\..\exercises\07-logical-operators\examples/4-not.js)
 
 ```js
 'use strict';
@@ -343,39 +281,7 @@ console.log(9, typeof not9, not9);
 
 >  
 >
-> [review source](../../../exercises/07-logical-operators/examples/5-short-circuiting.js)
-
-```txt
-LOG: --- a || b ---
-LOG: true
-LOG: or1:  boolean  true
-LOG: false
-LOG: true
-LOG: or2:  boolean  true
-LOG: true
-LOG: or3:  boolean  true
-LOG: false
-LOG: false
-LOG: or4:  boolean  false
-LOG: --- a && b ---
-LOG: true
-LOG: true
-LOG: and1:  boolean  true
-LOG: false
-LOG: and2:  boolean  false
-LOG: true
-LOG: false
-LOG: and3:  boolean  false
-LOG: false
-LOG: and4:  boolean  false
-LOG: --- a ? b : c ---
-LOG: true
-LOG: b
-LOG: ternary1:  string  b
-LOG: false
-LOG: c
-LOG: ternary2:  string  c
-```
+> [review source](..\..\..\exercises\07-logical-operators\examples/5-short-circuiting.js)
 
 ```js
 /* Short-Circuiting

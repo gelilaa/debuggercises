@@ -1,28 +1,22 @@
 # Debuggercises 
 
-> 6/24/2020, 5:04:07 PM 
+> 26/06/2020, 19:32:01 
 
 ## [exercises](../../README.md)/[05-functions-101](../README.md)/0-examples 
 
 - [/1-declaration-vs-execution.js](#1-declaration-vs-executionjs)  
 - [/2-parameters-and-arguments.js](#2-parameters-and-argumentsjs)  
-- [/3-return-values.js](#3-return-valuesjs) - _pass_ 
-- [/4-tracing-execution.js](#4-tracing-executionjs) - _pass_ 
+- [/3-return-values.js](#3-return-valuesjs)  
+- [/4-tracing-execution.js](#4-tracing-executionjs)  
 - [/5-scope.js](#5-scopejs)  
-- [/6-test-cases.js](#6-test-casesjs) - _pass_ 
+- [/6-test-cases.js](#6-test-casesjs)  
 ---
 
 ## /1-declaration-vs-execution.js 
 
 >  
 >
-> [review source](../../../exercises/05-functions-101/0-examples/1-declaration-vs-execution.js)
-
-```txt
-LOG: I exist!
-LOG: I exist!
-LOG: I exist!
-```
+> [review source](..\..\..\exercises\05-functions-101\0-examples/1-declaration-vs-execution.js)
 
 ```js
 'use strict';
@@ -55,17 +49,7 @@ iExist();
 
 >  
 >
-> [review source](../../../exercises/05-functions-101/0-examples/2-parameters-and-arguments.js)
-
-```txt
-LOG: string  4
-LOG: number  4
-LOG: string  4.0
-LOG: boolean  true
-LOG: object  null
-LOG: undefined  undefined
-LOG: undefined  undefined
-```
+> [review source](..\..\..\exercises\05-functions-101\0-examples/2-parameters-and-arguments.js)
 
 ```js
 'use strict';
@@ -106,17 +90,9 @@ logTheParameter();
 
 ## /3-return-values.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/05-functions-101/0-examples/3-return-values.js)
-
-```txt
-+ PASS: Assertion 1
-+ PASS: Assertion 2
-+ PASS: Assertion 3
-+ PASS: Assertion 4
-+ PASS: Assertion 5
-```
+> [review source](..\..\..\exercises\05-functions-101\0-examples/3-return-values.js)
 
 ```js
 'use strict';
@@ -160,14 +136,9 @@ console.assert(isTrue5, 'Assertion 5');
 
 ## /4-tracing-execution.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/05-functions-101/0-examples/4-tracing-execution.js)
-
-```txt
-+ PASS: Assertion 1
-+ PASS: Assertion 2
-```
+> [review source](..\..\..\exercises\05-functions-101\0-examples/4-tracing-execution.js)
 
 ```js
 // PS. Study this in JS Tutor and the debugger
@@ -216,16 +187,7 @@ console.assert(isTrue2, 'Assertion 2');
 
 >  
 >
-> [review source](../../../exercises/05-functions-101/0-examples/5-scope.js)
-
-```txt
-LOG: -- example 1 --
-LOG: string  number
-LOG: -- example 2 --
-LOG: string  string
-LOG: -- example 3 --
-LOG: string  object
-```
+> [review source](..\..\..\exercises\05-functions-101\0-examples/5-scope.js)
 
 ```js
 'use strict';
@@ -270,17 +232,9 @@ console.log(typeof returned3, returned3);
 
 ## /6-test-cases.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/05-functions-101/0-examples/6-test-cases.js)
-
-```txt
-+ PASS: Test 1
-+ PASS: Test 2
-+ PASS: Test 3
-+ PASS: Test 4
-+ PASS: Test 5
-```
+> [review source](..\..\..\exercises\05-functions-101\0-examples/6-test-cases.js)
 
 ```js
 'use strict';

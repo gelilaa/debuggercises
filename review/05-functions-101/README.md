@@ -1,20 +1,20 @@
 # Debuggercises 
 
-> 6/24/2020, 5:04:07 PM 
+> 26/06/2020, 19:32:01 
 
 ## [exercises](../README.md)/05-functions-101 
 
 - [/0-examples](./0-examples/README.md)
   - [/1-declaration-vs-execution.js](./0-examples/README.md#1-declaration-vs-executionjs)  
   - [/2-parameters-and-arguments.js](./0-examples/README.md#2-parameters-and-argumentsjs)  
-  - [/3-return-values.js](./0-examples/README.md#3-return-valuesjs) - _pass_ 
-  - [/4-tracing-execution.js](./0-examples/README.md#4-tracing-executionjs) - _pass_ 
+  - [/3-return-values.js](./0-examples/README.md#3-return-valuesjs)  
+  - [/4-tracing-execution.js](./0-examples/README.md#4-tracing-executionjs)  
   - [/5-scope.js](./0-examples/README.md#5-scopejs)  
-  - [/6-test-cases.js](./0-examples/README.md#6-test-casesjs) - _pass_ 
+  - [/6-test-cases.js](./0-examples/README.md#6-test-casesjs)  
 - [/1-scrambles](./1-scrambles/README.md)
   - [/1-write-expected.js](./1-scrambles/README.md#1-write-expectedjs) - _incomplete_ 
   - [/2-write-arguments.js](./1-scrambles/README.md#2-write-argumentsjs) - _incomplete_ 
-  - [/3-write-function.js](./1-scrambles/README.md#3-write-functionjs) - _fail_ 
+  - [/3-write-function.js](./1-scrambles/README.md#3-write-functionjs)  
 - [/2-local-param-global](./2-local-param-global/README.md)
   - [/0-example.js](./2-local-param-global/README.md#0-examplejs)  
   - [/1-parameter-local.js](./2-local-param-global/README.md#1-parameter-localjs) - _incomplete_ 

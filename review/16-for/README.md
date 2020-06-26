@@ -1,12 +1,12 @@
 # Debuggercises 
 
-> 6/24/2020, 5:04:07 PM 
+> 26/06/2020, 19:32:01 
 
 ## [exercises](../README.md)/16-for 
 
 - [/examples](./examples/README.md)
-  - [/1-for-many-lines.js](./examples/README.md#1-for-many-linesjs) - _pass_ 
-  - [/2-for-one-line.js](./examples/README.md#2-for-one-linejs) - _pass_ 
+  - [/1-for-many-lines.js](./examples/README.md#1-for-many-linesjs)  
+  - [/2-for-one-line.js](./examples/README.md#2-for-one-linejs)  
   - [/3-for-infinite.js](./examples/README.md#3-for-infinitejs) - _too much iteration_ 
 - [/exercises](./exercises/README.md)
   - [/1-write-tests.js](./exercises/README.md#1-write-testsjs) - _incomplete_ 

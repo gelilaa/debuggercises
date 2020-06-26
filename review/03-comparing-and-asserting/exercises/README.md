@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/24/2020, 5:04:07 PM 
+> 26/06/2020, 19:32:01 
 
 ## [exercises](../../README.md)/[03-comparing-and-asserting](../README.md)/exercises 
 
@@ -12,20 +12,20 @@
 
 > incomplete 
 >
-> [review source](../../../exercises/03-comparing-and-asserting/exercises/1.js)
+> [review source](..\..\..\exercises\03-comparing-and-asserting\exercises/1.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/03-comparing-and-asserting/exercises/1.js:5:26)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Object.<anonymous> (  ...  \exercises\03-comparing-and-asserting\exercises\1.js:5:26)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -59,20 +59,20 @@ console.assert(isTrue4, 'Assertion 4');
 
 > incomplete 
 >
-> [review source](../../../exercises/03-comparing-and-asserting/exercises/2.js)
+> [review source](..\..\..\exercises\03-comparing-and-asserting\exercises/2.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/03-comparing-and-asserting/exercises/2.js:6:33)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Object.<anonymous> (  ...  \exercises\03-comparing-and-asserting\exercises\2.js:6:33)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js

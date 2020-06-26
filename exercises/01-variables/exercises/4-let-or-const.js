@@ -16,23 +16,22 @@
 */
 
 
-_;
+const x= 'a';
 console.log(x); // should print 'a'
 
-_;
+let y = 'b';
 console.log(y); // should print 'b'
-
+x;
 console.log(x); // should print 'a'
-
-_;
+let z;
 console.log(z); // should print undefined
-
+ y;
 console.log(y); // should print 'b'
 
-_;
+z= 'c';
 console.log(z); // should print 'c'
 
-_;
+y = y + 'd';
 console.log(y); // should print 'bd'
-
+x;
 console.log(x); // should print 'a'

@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/24/2020, 5:04:07 PM 
+> 26/06/2020, 19:32:01 
 
 ## [exercises](../README.md)/13-roles-of-variables 
 
@@ -12,7 +12,7 @@
 
 >  
 >
-> [review source](../../exercises/13-roles-of-variables/readme.js)
+> [review source](..\..\exercises\13-roles-of-variables/readme.js)
 
 ```js
 /* Roles of Variables
@@ -90,7 +90,7 @@
 
 >  
 >
-> [review source](../../exercises/13-roles-of-variables/back-tracing.js)
+> [review source](..\..\exercises\13-roles-of-variables/back-tracing.js)
 
 ```js
 /* Back Tracking

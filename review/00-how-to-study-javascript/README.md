@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/24/2020, 5:04:07 PM 
+> 26/06/2020, 19:32:01 
 
 ## [exercises](../README.md)/00-how-to-study-javascript 
 
@@ -17,7 +17,7 @@
 
 >  
 >
-> [review source](../../exercises/00-how-to-study-javascript/readme.js)
+> [review source](..\..\exercises\00-how-to-study-javascript/readme.js)
 
 ```js
 /*  HOW TO STUDY JAVASCRIPT
@@ -96,7 +96,7 @@
 
 >  
 >
-> [review source](../../exercises/00-how-to-study-javascript/1-studying-in-js-tutor.js)
+> [review source](..\..\exercises\00-how-to-study-javascript/1-studying-in-js-tutor.js)
 
 ```js
 /* A suggested workflow for studying code in JS Tutor
@@ -141,7 +141,7 @@
 
 >  
 >
-> [review source](../../exercises/00-how-to-study-javascript/2-studying-in-devtools.js)
+> [review source](..\..\exercises\00-how-to-study-javascript/2-studying-in-devtools.js)
 
 ```js
 /* A suggested workflow for studying code in your DevTools' debugger
@@ -192,7 +192,7 @@
 
 >  
 >
-> [review source](../../exercises/00-how-to-study-javascript/3-studying-in-vscode.js)
+> [review source](..\..\exercises\00-how-to-study-javascript/3-studying-in-vscode.js)
 
 ```js
 /* A suggested workflow for studying code in VSCode's debugger
@@ -237,11 +237,7 @@
 
 >  
 >
-> [review source](../../exercises/00-how-to-study-javascript/4-example-variable.js)
-
-```txt
-LOG: red
-```
+> [review source](..\..\exercises\00-how-to-study-javascript/4-example-variable.js)
 
 ```js
 // 1: this step will not read or write from memory
@@ -273,11 +269,7 @@ console.log(aColor);
 
 >  
 >
-> [review source](../../exercises/00-how-to-study-javascript/5-example-conditional.js)
-
-```txt
-LOG: path 1
-```
+> [review source](..\..\exercises\00-how-to-study-javascript/5-example-conditional.js)
 
 ```js
 // 1: this step will not read or write from memory
@@ -333,7 +325,7 @@ console.log(condition);
 
 >  
 >
-> [review source](../../exercises/00-how-to-study-javascript/6-example-function.js)
+> [review source](..\..\exercises\00-how-to-study-javascript/6-example-function.js)
 
 ```js
 // 1: this step will not read or write from memory
