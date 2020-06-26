@@ -1,22 +1,28 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../../README.md)/[05-functions-101](../README.md)/0-examples 
 
 - [/1-declaration-vs-execution.js](#1-declaration-vs-executionjs)  
 - [/2-parameters-and-arguments.js](#2-parameters-and-argumentsjs)  
-- [/3-return-values.js](#3-return-valuesjs)  
-- [/4-tracing-execution.js](#4-tracing-executionjs)  
+- [/3-return-values.js](#3-return-valuesjs) - _pass_ 
+- [/4-tracing-execution.js](#4-tracing-executionjs) - _pass_ 
 - [/5-scope.js](#5-scopejs)  
-- [/6-test-cases.js](#6-test-casesjs)  
+- [/6-test-cases.js](#6-test-casesjs) - _pass_ 
 ---
 
 ## /1-declaration-vs-execution.js 
 
 >  
 >
-> [review source](..\..\..\exercises\05-functions-101\0-examples/1-declaration-vs-execution.js)
+> [review source](../../../exercises/05-functions-101/0-examples/1-declaration-vs-execution.js)
+
+```txt
+LOG: I exist!
+LOG: I exist!
+LOG: I exist!
+```
 
 ```js
 'use strict';
@@ -25,9 +31,9 @@
 
 // DECLARING a function creates it in memory
 //  without executing the code inside the curly braces
-const iExist = () => {
+function iExist() {
   console.log('I exist!');
-};
+}
 
 // EXECUTING a function will run the code in it's body
 // you can do this as many times as you like
@@ -49,7 +55,17 @@ iExist();
 
 >  
 >
-> [review source](..\..\..\exercises\05-functions-101\0-examples/2-parameters-and-arguments.js)
+> [review source](../../../exercises/05-functions-101/0-examples/2-parameters-and-arguments.js)
+
+```txt
+LOG: string  4
+LOG: number  4
+LOG: string  4.0
+LOG: boolean  true
+LOG: object  null
+LOG: undefined  undefined
+LOG: undefined  undefined
+```
 
 ```js
 'use strict';
@@ -59,9 +75,9 @@ iExist();
 // functions allow you to reuse the same code with different values
 //  PARAMETERS declare variables available inside your function
 //  they are assigned a value when you EXECUTE the function
-const logTheParameter = (parameter) => {
+function logTheParameter(parameter) {
   console.log(typeof parameter, parameter);
-};
+}
 
 // ARGUMENTS assign values to parameters when functions are EXECUTED
 // you can pass arguments directly as values
@@ -90,9 +106,17 @@ logTheParameter();
 
 ## /3-return-values.js 
 
->  
+> pass 
 >
-> [review source](..\..\..\exercises\05-functions-101\0-examples/3-return-values.js)
+> [review source](../../../exercises/05-functions-101/0-examples/3-return-values.js)
+
+```txt
++ PASS: Assertion 1
++ PASS: Assertion 2
++ PASS: Assertion 3
++ PASS: Assertion 4
++ PASS: Assertion 5
+```
 
 ```js
 'use strict';
@@ -100,10 +124,10 @@ logTheParameter();
 // PS. study this in JS Tutor!
 
 // RETURN VALUES allow you to send values from functions to global scope
-const findTheType = (param) => {
+function findTheType(param) {
   return typeof param;
   console.log('nothing after a return statement is executed!');
-};
+}
 
 // to save return values for later, assign them to a variable
 const returned1 = findTheType(4.0);
@@ -136,43 +160,45 @@ console.assert(isTrue5, 'Assertion 5');
 
 ## /4-tracing-execution.js 
 
->  
+> pass 
 >
-> [review source](..\..\..\exercises\05-functions-101\0-examples/4-tracing-execution.js)
+> [review source](../../../exercises/05-functions-101/0-examples/4-tracing-execution.js)
+
+```txt
++ PASS: Assertion 1
++ PASS: Assertion 2
+```
 
 ```js
 // PS. Study this in JS Tutor and the debugger
 
-// 1: use strict
-'use strict';
-
-// 2: declare variable flipper and declare the function assigned to it
-const flipper = (param1, param2) => {
-  // 4, 11: a return value is generated
+// 0: Creation Phase, function is declared
+function flipper(param1, param2) {
+  // 2 and 9: a return value is generated
   return param2 + param1;
-  // 5, 12: global result variable is declared & assigned
-};
+  // 3 and 10: global result variable is declared & assigned
+}
 
-// 3: flipper is executed, creating a new frame
+// 1: flipper is executed, creating a new frame
 //    parameters are assigned values using 'a' & 'b'
 const result1 = flipper('a', 'b');
-// 6: the value of result1 is compared to the expected value
+// 4: the value of result1 is compared to the expected value
 const isTrue1 = result1 === 'ba';
-// 7: the first assertion is evaluated
+// 5: the first assertion is evaluated
 console.assert(isTrue1, 'Assertion 1');
 
-// 8: variable is declared & assigned
+// 6: variable is declared & assigned
 const arg1 = 'x';
-// 9: variable is declared & assigned
+// 7: variable is declared & assigned
 const arg2 = 'y';
 
-// 10: flipper is executed, creating a new frame
+// 8: flipper is executed, creating a new frame
 //    parameters are assigned values from arg1 & arg2
 const result2 = flipper(arg1, arg2);
 
-// 13: the value of result2 is compared to the expected value
+// 11: the value of result2 is compared to the expected value
 const isTrue2 = result2 === 'yx';
-// 14: the second assertion is evaluated
+// 12: the second assertion is evaluated
 console.assert(isTrue2, 'Assertion 2');
 
 
@@ -187,7 +213,16 @@ console.assert(isTrue2, 'Assertion 2');
 
 >  
 >
-> [review source](..\..\..\exercises\05-functions-101\0-examples/5-scope.js)
+> [review source](../../../exercises/05-functions-101/0-examples/5-scope.js)
+
+```txt
+LOG: -- example 1 --
+LOG: string  number
+LOG: -- example 2 --
+LOG: string  string
+LOG: -- example 3 --
+LOG: string  object
+```
 
 ```js
 'use strict';
@@ -196,10 +231,10 @@ console.assert(isTrue2, 'Assertion 2');
 
 // variables declared in a function body are SCOPED to that function
 //  this includes parameters and locally declared variables
-const findTheType = (param) => {
+function findTheType(param) {
   const result = typeof param;
   return result;
-};
+}
 
 // what happens if you uncomment the console.logs below?
 
@@ -232,9 +267,17 @@ console.log(typeof returned3, returned3);
 
 ## /6-test-cases.js 
 
->  
+> pass 
 >
-> [review source](..\..\..\exercises\05-functions-101\0-examples/6-test-cases.js)
+> [review source](../../../exercises/05-functions-101/0-examples/6-test-cases.js)
+
+```txt
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
+```
 
 ```js
 'use strict';
@@ -265,10 +308,10 @@ console.log(typeof returned3, returned3);
 // this isn't how you will write tests professionally, but it's good for learning
 
 
-const findTheType = (param) => {
+function findTheType(param) {
   const result = typeof param;
   return result;
-};
+}
 
 const _1_arg = true;
 const _1_expect = 'boolean';

@@ -1,11 +1,11 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../README.md)/15-while 
 
 - [/examples](./examples/README.md)
-  - [/1-while.js](./examples/README.md#1-whilejs)  
+  - [/1-while.js](./examples/README.md#1-whilejs) - _pass_ 
   - [/2-while-infinite.js](./examples/README.md#2-while-infinitejs) - _too much iteration_ 
 - [/exercises](./exercises/README.md)
   - [/1-write-tests.js](./exercises/README.md#1-write-testsjs) - _incomplete_ 

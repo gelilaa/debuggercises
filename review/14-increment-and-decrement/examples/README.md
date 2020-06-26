@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../../README.md)/[14-increment-and-decrement](../README.md)/examples 
 
@@ -14,7 +14,25 @@
 
 >  
 >
-> [review source](..\..\..\exercises\14-increment-and-decrement\examples/postfix-decrement.js)
+> [review source](../../../exercises/14-increment-and-decrement/examples/postfix-decrement.js)
+
+```txt
+LOG: postfix decrement: x--
+LOG: initial x:  number  0  
+
+LOG: 1. return:  number  0
+LOG: 1. new x:  number  -1  
+
+LOG: 2. return:  number  -1
+LOG: 2. new x:  number  -2  
+
+LOG: 3. return:  number  -2
+LOG: 3. new x:  number  -3  
+
+LOG: 4. return:  number  -3
+LOG: 4. new x:  number  -4  
+
+```
 
 ```js
 'use strict';
@@ -60,7 +78,25 @@ console.log('4. new x:', typeof _4_new_x, _4_new_x, '\n');
 
 >  
 >
-> [review source](..\..\..\exercises\14-increment-and-decrement\examples/postfix-increment.js)
+> [review source](../../../exercises/14-increment-and-decrement/examples/postfix-increment.js)
+
+```txt
+LOG: postfix increment: x++
+LOG: initial x:  number  0  
+
+LOG: 1. return:  number  0
+LOG: 1. new x:  number  1  
+
+LOG: 2. return:  number  1
+LOG: 2. new x:  number  2  
+
+LOG: 3. return:  number  2
+LOG: 3. new x:  number  3  
+
+LOG: 4. return:  number  3
+LOG: 4. new x:  number  4  
+
+```
 
 ```js
 'use strict';
@@ -106,7 +142,25 @@ console.log('4. new x:', typeof _4_new_x, _4_new_x, '\n');
 
 >  
 >
-> [review source](..\..\..\exercises\14-increment-and-decrement\examples/prefix-decrement.js)
+> [review source](../../../exercises/14-increment-and-decrement/examples/prefix-decrement.js)
+
+```txt
+LOG: prefix decrement: --x
+LOG: initial x:  number  0  
+
+LOG: 1. return:  number  -1
+LOG: 1. new x:  number  -1  
+
+LOG: 2. return:  number  -2
+LOG: 2. new x:  number  -2  
+
+LOG: 3. return:  number  -3
+LOG: 3. new x:  number  -3  
+
+LOG: 4. return:  number  -4
+LOG: 4. new x:  number  -4  
+
+```
 
 ```js
 'use strict';
@@ -152,7 +206,25 @@ console.log('4. new x:', typeof _4_new_x, _4_new_x, '\n');
 
 >  
 >
-> [review source](..\..\..\exercises\14-increment-and-decrement\examples/prefix-increment.js)
+> [review source](../../../exercises/14-increment-and-decrement/examples/prefix-increment.js)
+
+```txt
+LOG: prefix increment: ++x
+LOG: initial x:  number  0  
+
+LOG: 1. return:  number  1
+LOG: 1. new x:  number  1  
+
+LOG: 2. return:  number  2
+LOG: 2. new x:  number  2  
+
+LOG: 3. return:  number  3
+LOG: 3. new x:  number  3  
+
+LOG: 4. return:  number  4
+LOG: 4. new x:  number  4  
+
+```
 
 ```js
 'use strict';

@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../../README.md)/[12-functions-301](../README.md)/1-fill-in-the-blanks 
 
@@ -14,20 +14,20 @@
 
 > incomplete 
 >
-> [review source](..\..\..\exercises\12-functions-301\1-fill-in-the-blanks/1-write-tests.js)
+> [review source](../../../exercises/12-functions-301/1-fill-in-the-blanks/1-write-tests.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  \exercises\12-functions-301\1-fill-in-the-blanks\1-write-tests.js:23:19)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
-    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
+    at Object.<anonymous> (  ...  /exercises/12-functions-301/1-fill-in-the-blanks/1-write-tests.js:23:19)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
 ```
 
 ```js
@@ -99,20 +99,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 > incomplete 
 >
-> [review source](..\..\..\exercises\12-functions-301\1-fill-in-the-blanks/2-write-tests.js)
+> [review source](../../../exercises/12-functions-301/1-fill-in-the-blanks/2-write-tests.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  \exercises\12-functions-301\1-fill-in-the-blanks\2-write-tests.js:22:19)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
-    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
+    at Object.<anonymous> (  ...  /exercises/12-functions-301/1-fill-in-the-blanks/2-write-tests.js:22:19)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
 ```
 
 ```js
@@ -183,20 +183,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 > incomplete 
 >
-> [review source](..\..\..\exercises\12-functions-301\1-fill-in-the-blanks/3-pass-tests.js)
+> [review source](../../../exercises/12-functions-301/1-fill-in-the-blanks/3-pass-tests.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at sameTruthiness (  ...  \exercises\12-functions-301\1-fill-in-the-blanks\3-pass-tests.js:14:18)
-    at Object.<anonymous> (  ...  \exercises\12-functions-301\1-fill-in-the-blanks\3-pass-tests.js:22:19)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
-    at Object.<anonymous> (  ...  \scripts\review.js:119:1) 
+    at sameTruthiness (  ...  /exercises/12-functions-301/1-fill-in-the-blanks/3-pass-tests.js:14:18)
+    at Object.<anonymous> (  ...  /exercises/12-functions-301/1-fill-in-the-blanks/3-pass-tests.js:22:19)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
 ```
 
 ```js
@@ -266,20 +266,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 > incomplete 
 >
-> [review source](..\..\..\exercises\12-functions-301\1-fill-in-the-blanks/4-pass-tests.js)
+> [review source](../../../exercises/12-functions-301/1-fill-in-the-blanks/4-pass-tests.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at mystery (  ...  \exercises\12-functions-301\1-fill-in-the-blanks\4-pass-tests.js:14:18)
-    at Object.<anonymous> (  ...  \exercises\12-functions-301\1-fill-in-the-blanks\4-pass-tests.js:22:19)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
-    at Object.<anonymous> (  ...  \scripts\review.js:119:1) 
+    at mystery (  ...  /exercises/12-functions-301/1-fill-in-the-blanks/4-pass-tests.js:14:18)
+    at Object.<anonymous> (  ...  /exercises/12-functions-301/1-fill-in-the-blanks/4-pass-tests.js:22:19)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
 ```
 
 ```js

@@ -1,34 +1,34 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../../README.md)/[10-conditional-statements](../README.md)/1-execution-paths 
 
 - [/1-write-expected.js](#1-write-expectedjs) - _incomplete_ 
 - [/2-write-arguments.js](#2-write-argumentsjs) - _incomplete_ 
-- [/3-write-arguments.js](#3-write-argumentsjs)  
+- [/3-write-arguments.js](#3-write-argumentsjs) - _fail_ 
 - [/4-write-function.js](#4-write-functionjs) - _incomplete_ 
-- [/5-write-function.js](#5-write-functionjs)  
+- [/5-write-function.js](#5-write-functionjs) - _fail_ 
 ---
 
 ## /1-write-expected.js 
 
 > incomplete 
 >
-> [review source](..\..\..\exercises\10-conditional-statements\1-execution-paths/1-write-expected.js)
+> [review source](../../../exercises/10-conditional-statements/1-execution-paths/1-write-expected.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  \exercises\10-conditional-statements\1-execution-paths\1-write-expected.js:14:19)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
-    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
+    at Object.<anonymous> (  ...  /exercises/10-conditional-statements/1-execution-paths/1-write-expected.js:14:19)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
 ```
 
 ```js
@@ -91,20 +91,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 > incomplete 
 >
-> [review source](..\..\..\exercises\10-conditional-statements\1-execution-paths/2-write-arguments.js)
+> [review source](../../../exercises/10-conditional-statements/1-execution-paths/2-write-arguments.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  \exercises\10-conditional-statements\1-execution-paths\2-write-arguments.js:15:27)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
-    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
+    at Object.<anonymous> (  ...  /exercises/10-conditional-statements/1-execution-paths/2-write-arguments.js:15:27)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
 ```
 
 ```js
@@ -167,9 +167,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 ## /3-write-arguments.js 
 
->  
+> fail 
 >
-> [review source](..\..\..\exercises\10-conditional-statements\1-execution-paths/3-write-arguments.js)
+> [review source](../../../exercises/10-conditional-statements/1-execution-paths/3-write-arguments.js)
+
+```txt
+- FAIL: Test 1
+- FAIL: Test 2
+- FAIL: Test 3
+- FAIL: Test 4
++ PASS: Test 5
++ PASS: Test 6
+- FAIL: Test 7
++ PASS: Test 8
+```
 
 ```js
 const mystery = (a, b) => {
@@ -236,20 +247,20 @@ console.assert(_8_actual === _8_expect, 'Test 8');
 
 > incomplete 
 >
-> [review source](..\..\..\exercises\10-conditional-statements\1-execution-paths/4-write-function.js)
+> [review source](../../../exercises/10-conditional-statements/1-execution-paths/4-write-function.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at mystery (  ...  \exercises\10-conditional-statements\1-execution-paths\4-write-function.js:3:3)
-    at Object.<anonymous> (  ...  \exercises\10-conditional-statements\1-execution-paths\4-write-function.js:17:20)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
-    at Object.<anonymous> (  ...  \scripts\review.js:119:1) 
+    at mystery (  ...  /exercises/10-conditional-statements/1-execution-paths/4-write-function.js:3:3)
+    at Object.<anonymous> (  ...  /exercises/10-conditional-statements/1-execution-paths/4-write-function.js:17:20)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
 ```
 
 ```js
@@ -327,9 +338,21 @@ console.assert(_12_actual === _12_expect, 'Test 12');
 
 ## /5-write-function.js 
 
->  
+> fail 
 >
-> [review source](..\..\..\exercises\10-conditional-statements\1-execution-paths/5-write-function.js)
+> [review source](../../../exercises/10-conditional-statements/1-execution-paths/5-write-function.js)
+
+```txt
+- FAIL: Test 1
+- FAIL: Test 2
+- FAIL: Test 3
+- FAIL: Test 4
+- FAIL: Test 5
+- FAIL: Test 6
+- FAIL: Test 7
+- FAIL: Test 8
+- FAIL: Test 9
+```
 
 ```js
 const mystery = (a, b) => {

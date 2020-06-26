@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../../README.md)/[07-logical-operators](../README.md)/exercises 
 
@@ -13,20 +13,20 @@
 
 > incomplete 
 >
-> [review source](..\..\..\exercises\07-logical-operators\exercises/and.js)
+> [review source](../../../exercises/07-logical-operators/exercises/and.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at and (  ...  \exercises\07-logical-operators\exercises\and.js:6:3)
-    at Object.<anonymous> (  ...  \exercises\07-logical-operators\exercises\and.js:10:19)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
-    at Object.<anonymous> (  ...  \scripts\review.js:119:1) 
+    at and (  ...  /exercises/07-logical-operators/exercises/and.js:6:3)
+    at Object.<anonymous> (  ...  /exercises/07-logical-operators/exercises/and.js:10:19)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
 ```
 
 ```js
@@ -84,20 +84,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 > incomplete 
 >
-> [review source](..\..\..\exercises\07-logical-operators\exercises/not.js)
+> [review source](../../../exercises/07-logical-operators/exercises/not.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at not (  ...  \exercises\07-logical-operators\exercises\not.js:6:3)
-    at Object.<anonymous> (  ...  \exercises\07-logical-operators\exercises\not.js:10:19)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
-    at Object.<anonymous> (  ...  \scripts\review.js:119:1) 
+    at not (  ...  /exercises/07-logical-operators/exercises/not.js:6:3)
+    at Object.<anonymous> (  ...  /exercises/07-logical-operators/exercises/not.js:10:19)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
 ```
 
 ```js
@@ -155,20 +155,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 > incomplete 
 >
-> [review source](..\..\..\exercises\07-logical-operators\exercises/or.js)
+> [review source](../../../exercises/07-logical-operators/exercises/or.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at or (  ...  \exercises\07-logical-operators\exercises\or.js:6:3)
-    at Object.<anonymous> (  ...  \exercises\07-logical-operators\exercises\or.js:10:19)
-    at Module._compile (internal/modules/cjs/loader.js:1176:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
-    at Module.load (internal/modules/cjs/loader.js:1040:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
-    at Module.require (internal/modules/cjs/loader.js:1080:19)
-    at require (internal/modules/cjs/helpers.js:72:18)
-    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
-    at Object.<anonymous> (  ...  \scripts\review.js:119:1) 
+    at or (  ...  /exercises/07-logical-operators/exercises/or.js:6:3)
+    at Object.<anonymous> (  ...  /exercises/07-logical-operators/exercises/or.js:10:19)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
+    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
 ```
 
 ```js

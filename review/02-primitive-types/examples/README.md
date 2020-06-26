@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../../README.md)/[02-primitive-types](../README.md)/examples 
 
@@ -14,7 +14,14 @@
 
 >  
 >
-> [review source](..\..\..\exercises\02-primitive-types\examples/boolean-undefined-null.js)
+> [review source](../../../exercises/02-primitive-types/examples/boolean-undefined-null.js)
+
+```txt
+LOG: boolean  true
+LOG: boolean  false
+LOG: undefined  undefined
+LOG: object  null
+```
 
 ```js
 'use strict';
@@ -49,7 +56,16 @@ console.log(typeof objectNull, objectNull);
 
 >  
 >
-> [review source](..\..\..\exercises\02-primitive-types\examples/number.js)
+> [review source](../../../exercises/02-primitive-types/examples/number.js)
+
+```txt
+LOG: number  1
+LOG: number  0
+LOG: number  -1
+LOG: number  Infinity
+LOG: number  NaN
+LOG: number  1000
+```
 
 ```js
 'use strict';
@@ -85,7 +101,20 @@ console.log(typeof numF, numF);
 
 >  
 >
-> [review source](..\..\..\exercises\02-primitive-types\examples/string.js)
+> [review source](../../../exercises/02-primitive-types/examples/string.js)
+
+```txt
+LOG: string  
+LOG: string  0
+LOG: string  false
+LOG: string  undefined
+LOG: string  null
+LOG: string  boolean
+LOG: string  number
+LOG: string  abc
+LOG: string  cba
+LOG: string  , 0, false, undefined, null
+```
 
 ```js
 'use strict';
@@ -138,7 +167,15 @@ console.log(typeof allOfThem, allOfThem);
 
 >  
 >
-> [review source](..\..\..\exercises\02-primitive-types\examples/typeof.js)
+> [review source](../../../exercises/02-primitive-types/examples/typeof.js)
+
+```txt
+LOG: string  
+LOG: number  0
+LOG: boolean  false
+LOG: undefined  undefined
+LOG: object  null
+```
 
 ```js
 'use strict';

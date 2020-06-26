@@ -1,19 +1,34 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../../README.md)/[19-implicit-coercion](../README.md)/0-examples 
 
 - [/0-complicated-but-learnable.js](#0-complicated-but-learnablejs)  
-- [/1-plus.js](#1-plusjs)  
-- [/2-loose-equality.js](#2-loose-equalityjs)  
+- [/1-plus.js](#1-plusjs) - _pass_ 
+- [/2-loose-equality.js](#2-loose-equalityjs) - _pass_ 
 ---
 
 ## /0-complicated-but-learnable.js 
 
 >  
 >
-> [review source](..\..\..\exercises\19-implicit-coercion\0-examples/0-complicated-but-learnable.js)
+> [review source](../../../exercises/19-implicit-coercion/0-examples/0-complicated-but-learnable.js)
+
+```txt
+LOG:   +
+LOG: string  23
+LOG: string  23
+LOG: number  5
+LOG: number  4
+LOG: string  true3
+LOG:   ==
+LOG: boolean  true
+LOG: boolean  true
+LOG: boolean  true
+LOG: boolean  true
+LOG: boolean  false
+```
 
 ```js
 'use strict';
@@ -92,9 +107,22 @@ console.log(typeof _10_looseEquality, _10_looseEquality);
 
 ## /1-plus.js 
 
->  
+> pass 
 >
-> [review source](..\..\..\exercises\19-implicit-coercion\0-examples/1-plus.js)
+> [review source](../../../exercises/19-implicit-coercion/0-examples/1-plus.js)
+
+```txt
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
++ PASS: Test 7
++ PASS: Test 8
++ PASS: Test 9
++ PASS: Test 10
+```
 
 ```js
 'use strict';
@@ -197,9 +225,27 @@ console.assert(Object.is(_10_copy, _10_native), 'Test 10');
 
 ## /2-loose-equality.js 
 
->  
+> pass 
 >
-> [review source](..\..\..\exercises\19-implicit-coercion\0-examples/2-loose-equality.js)
+> [review source](../../../exercises/19-implicit-coercion/0-examples/2-loose-equality.js)
+
+```txt
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
++ PASS: Test 7
++ PASS: Test 8
++ PASS: Test 9
++ PASS: Test 10
++ PASS: Test 11
++ PASS: Test 12
++ PASS: Test 13
++ PASS: Test 14
++ PASS: Test 15
+```
 
 ```js
 'use strict';

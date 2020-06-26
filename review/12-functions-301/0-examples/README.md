@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 26/06/2020, 19:32:01 
+> 6/26/2020, 5:38:04 PM 
 
 ## [exercises](../../README.md)/[12-functions-301](../README.md)/0-examples 
 
@@ -12,7 +12,7 @@
 
 >  
 >
-> [review source](..\..\..\exercises\12-functions-301\0-examples/1-documenting-functions.js)
+> [review source](../../../exercises/12-functions-301/0-examples/1-documenting-functions.js)
 
 ```js
 'use strict';
@@ -81,7 +81,7 @@ const reverseString = (str) => {
 
 >  
 >
-> [review source](..\..\..\exercises\12-functions-301\0-examples/2-enforcing-types.js)
+> [review source](../../../exercises/12-functions-301/0-examples/2-enforcing-types.js)
 
 ```js
 'use strict';
