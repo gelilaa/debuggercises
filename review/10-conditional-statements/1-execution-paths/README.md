@@ -1,34 +1,32 @@
 # Debuggercises 
 
-> 6/26/2020, 5:38:04 PM 
+> 6/26/2020, 5:52:36 PM 
 
 ## [exercises](../../README.md)/[10-conditional-statements](../README.md)/1-execution-paths 
 
-- [/1-write-expected.js](#1-write-expectedjs) - _incomplete_ 
-- [/2-write-arguments.js](#2-write-argumentsjs) - _incomplete_ 
+- [/1-write-expected.js](#1-write-expectedjs) - _pass_ 
+- [/2-write-arguments.js](#2-write-argumentsjs) - _pass_ 
 - [/3-write-arguments.js](#3-write-argumentsjs) - _fail_ 
-- [/4-write-function.js](#4-write-functionjs) - _incomplete_ 
+- [/4-write-function.js](#4-write-functionjs) - _fail_ 
 - [/5-write-function.js](#5-write-functionjs) - _fail_ 
 ---
 
 ## /1-write-expected.js 
 
-> incomplete 
+> pass 
 >
 > [review source](../../../exercises/10-conditional-statements/1-execution-paths/1-write-expected.js)
 
 ```txt
-UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/10-conditional-statements/1-execution-paths/1-write-expected.js:14:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
++ PASS: Test 7
++ PASS: Test 8
++ PASS: Test 9
 ```
 
 ```js
@@ -45,42 +43,41 @@ const mystery = (a, b) => {
 };
 
 
-const _1_expect = _;
+const _1_expect = 'path 2';
 const _1_actual = mystery(0, null);
 console.assert(_1_actual === _1_expect, 'Test 1');
 
-const _2_expect = _;
+const _2_expect = 'path 3';
 const _2_actual = mystery(false, 'hello');
 console.assert(_2_actual === _2_expect, 'Test 2');
 
-const _3_expect = _;
+const _3_expect = 'path 3';
 const _3_actual = mystery(true, undefined);
 console.assert(_3_actual === _3_expect, 'Test 3');
 
-const _4_expect = _;
+const _4_expect = 'path 1';
 const _4_actual = mystery(1, -1);
 console.assert(_4_actual === _4_expect, 'Test 4');
 
-const _5_expect = _;
+const _5_expect = 'path 2';
 const _5_actual = mystery('', '');
 console.assert(_5_actual === _5_expect, 'Test 5');
 
-const _6_expect = _;
+const _6_expect = 'path 1';
 const _6_actual = mystery('_6_expect', '_6_actual');
 console.assert(_6_actual === _6_expect, 'Test 6');
 
-const _7_expect = _;
+const _7_expect = 'path 3';
 const _7_actual = mystery(0, 12);
 console.assert(_7_actual === _7_expect, 'Test 7');
 
-const _8_expect = _;
+const _8_expect = 'path 2';
 const _8_actual = mystery(null, undefined);
 console.assert(_8_actual === _8_expect, 'Test 8');
 
-const _9_expect = _;
+const _9_expect = 'path 3';
 const _9_actual = mystery(NaN, Infinity);
 console.assert(_9_actual === _9_expect, 'Test 9');
-
 ```
 
 [TOP](#debuggercises)
@@ -89,22 +86,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 ## /2-write-arguments.js 
 
-> incomplete 
+> pass 
 >
 > [review source](../../../exercises/10-conditional-statements/1-execution-paths/2-write-arguments.js)
 
 ```txt
-UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/10-conditional-statements/1-execution-paths/2-write-arguments.js:15:27)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
++ PASS: Test 7
++ PASS: Test 8
++ PASS: Test 9
 ```
 
 ```js
@@ -122,43 +117,42 @@ const mystery = (a, b) => {
 
 // path 1
 const _1_expect = 'path 1';
-const _1_actual = mystery(_, _);
+const _1_actual = mystery('hello', 'string');
 console.assert(_1_actual === _1_expect, 'Test 1');
 
 const _2_expect = 'path 1';
-const _2_actual = mystery(_, _);
+const _2_actual = mystery(0, 'number');
 console.assert(_2_actual === _2_expect, 'Test 2');
 
 const _3_expect = 'path 1';
-const _3_actual = mystery(_, _);
+const _3_actual = mystery(true, 'boolean');
 console.assert(_3_actual === _3_expect, 'Test 3');
 
 // path 2
 const _4_expect = 'path 2';
-const _4_actual = mystery(_, _);
+const _4_actual = mystery('string', 'hi');
 console.assert(_4_actual === _4_expect, 'Test 4');
 
 const _5_expect = 'path 2';
-const _5_actual = mystery(_, _);
+const _5_actual = mystery('number', 12);
 console.assert(_5_actual === _5_expect, 'Test 5');
 
 const _6_expect = 'path 2';
-const _6_actual = mystery(_, _);
+const _6_actual = mystery('boolean', false);
 console.assert(_6_actual === _6_expect, 'Test 6');
 
 // path 3
 const _7_expect = 'path 3';
-const _7_actual = mystery(_, _);
+const _7_actual = mystery(undefined, '');
 console.assert(_7_actual === _7_expect, 'Test 7');
 
 const _8_expect = 'path 3';
-const _8_actual = mystery(_, _);
+const _8_actual = mystery(NaN, NaN);
 console.assert(_8_actual === _8_expect, 'Test 8');
 
 const _9_expect = 'path 3';
-const _9_actual = mystery(_, _);
+const _9_actual = mystery('string', 0);
 console.assert(_9_actual === _9_expect, 'Test 9');
-
 ```
 
 [TOP](#debuggercises)
@@ -225,7 +219,7 @@ const _5_actual = mystery('', '');
 console.assert(_5_actual === _5_expect, 'Test 5');
 
 const _6_expect = 'path 3';
-const _6_actual = mystery('_6_expect', '_6_actual');
+const _6_actual = mystery('_6_expect', '_6_actual'); 
 console.assert(_6_actual === _6_expect, 'Test 6');
 
 // path 4
@@ -245,34 +239,35 @@ console.assert(_8_actual === _8_expect, 'Test 8');
 
 ## /4-write-function.js 
 
-> incomplete 
+> fail 
 >
 > [review source](../../../exercises/10-conditional-statements/1-execution-paths/4-write-function.js)
 
 ```txt
-UNCAUGHT: ReferenceError: _ is not defined
-    at mystery (  ...  /exercises/10-conditional-statements/1-execution-paths/4-write-function.js:3:3)
-    at Object.<anonymous> (  ...  /exercises/10-conditional-statements/1-execution-paths/4-write-function.js:17:20)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
++ PASS: Test 01
++ PASS: Test 02
++ PASS: Test 03
++ PASS: Test 04
++ PASS: Test 05
++ PASS: Test 06
+- FAIL: Test 07
+- FAIL: Test 08
+- FAIL: Test 09
+- FAIL: Test 10
+- FAIL: Test 11
+- FAIL: Test 12
 ```
 
 ```js
 const mystery = (a, b) => {
   let result = '';
-  if (_) {
+  if (a || b) {
     result = 'path 1';
-  } else if (_) {
+  } else if (!a && !b) {
     result = 'path 2';
-  } else if (_) {
+  } else if ((a || b) && typeof a === typeof b) {
     result = 'path 3';
-  } else {
+  } else  {
     result = 'path 4';
   }
   return result;
@@ -343,9 +338,9 @@ console.assert(_12_actual === _12_expect, 'Test 12');
 > [review source](../../../exercises/10-conditional-statements/1-execution-paths/5-write-function.js)
 
 ```txt
-- FAIL: Test 1
-- FAIL: Test 2
-- FAIL: Test 3
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
 - FAIL: Test 4
 - FAIL: Test 5
 - FAIL: Test 6
@@ -356,6 +351,16 @@ console.assert(_12_actual === _12_expect, 'Test 12');
 
 ```js
 const mystery = (a, b) => {
+    if (a !==b) {
+        return 'path 1';
+        
+    }else if (typeof a === typeof b) {
+        return 'path 2';
+        
+    }else {
+        return 'path 3'
+        
+    }
 
 };
 

@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/26/2020, 5:38:04 PM 
+> 6/26/2020, 5:52:36 PM 
 
 ## [exercises](../../README.md)/[07-logical-operators](../README.md)/examples 
 
@@ -109,7 +109,7 @@ LOG: 5  string  asdf
 LOG: 6  string  asdf
 LOG: 7  boolean  true
 LOG: 8  undefined  undefined
-LOG: 9  string  poiu
+LOG: 9  number  Infinity
 ```
 
 ```js
@@ -121,6 +121,7 @@ LOG: 9  string  poiu
   - if the left is truthy, it returns the left value
   - if the left is falsy, it returns the right value
 */
+// in other word it always chooses the true value.
 
 const or1 = 0 || 0;
 console.log(1, typeof or1, or1);
@@ -146,7 +147,7 @@ console.log(7, typeof or7, or7);
 const or8 = NaN || undefined;
 console.log(8, typeof or8, or8);
 
-const or9 = 'poiu' || 'asdf';
+const or9 = Infinity || 'asdf';
 console.log(9, typeof or9, or9);
 
 ```
@@ -166,7 +167,7 @@ LOG: 1  number  0
 LOG: 2  number  0
 LOG: 3  number  0
 LOG: 4  number  1
-LOG: 5  string  
+LOG: 5  boolean  true
 LOG: 6  string  
 LOG: 7  boolean  false
 LOG: 8  number  NaN
@@ -181,7 +182,6 @@ LOG: 9  string  asdf
   it returns the left value or the right value
   - if the left is falsy, it returns the left value
   - if the left is truthy, it returns the right value
-  https://javascript.info/logical-operators
 */
 
 const and1 = 0 && 0;
@@ -196,7 +196,7 @@ console.log(3, typeof and3, and3);
 const and4 = 1 && 1;
 console.log(4, typeof and4, and4);
 
-const and5 = '' && 'asdf';
+const and5 = true && true;
 console.log(5, typeof and5, and5);
 
 const and6 = 'asdf' && '';
@@ -208,7 +208,7 @@ console.log(7, typeof and7, and7);
 const and8 = NaN && undefined;
 console.log(8, typeof and8, and8);
 
-const and9 = 'poiu' && 'asdf';
+const and9 = Infinity && 'asdf';
 console.log(9, typeof and9, and9);
 
 ```

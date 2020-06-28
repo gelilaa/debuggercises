@@ -1,32 +1,30 @@
 # Debuggercises 
 
-> 6/26/2020, 5:38:04 PM 
+> 6/26/2020, 5:52:36 PM 
 
 ## [exercises](../../README.md)/[07-logical-operators](../README.md)/exercises 
 
-- [/and.js](#andjs) - _incomplete_ 
-- [/not.js](#notjs) - _incomplete_ 
-- [/or.js](#orjs) - _incomplete_ 
+- [/and.js](#andjs) - _pass_ 
+- [/not.js](#notjs) - _pass_ 
+- [/or.js](#orjs) - _pass_ 
 ---
 
 ## /and.js 
 
-> incomplete 
+> pass 
 >
 > [review source](../../../exercises/07-logical-operators/exercises/and.js)
 
 ```txt
-UNCAUGHT: ReferenceError: _ is not defined
-    at and (  ...  /exercises/07-logical-operators/exercises/and.js:6:3)
-    at Object.<anonymous> (  ...  /exercises/07-logical-operators/exercises/and.js:10:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
++ PASS: Test 7
++ PASS: Test 8
++ PASS: Test 9
 ```
 
 ```js
@@ -35,8 +33,13 @@ UNCAUGHT: ReferenceError: _ is not defined
 // write a function that behaves the same as &&
 //  ... without using &&, only using ? :
 const and = (left, right) => {
-  return _ ? _ : _;
-};
+
+const parLeft = Boolean(left);
+const isFalse=parLeft=== false;
+return isFalse ? left : right;
+
+  
+}
 
 const _1_expect = 0;
 const _1_actual = and(0, 0);
@@ -82,22 +85,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 ## /not.js 
 
-> incomplete 
+> pass 
 >
 > [review source](../../../exercises/07-logical-operators/exercises/not.js)
 
 ```txt
-UNCAUGHT: ReferenceError: _ is not defined
-    at not (  ...  /exercises/07-logical-operators/exercises/not.js:6:3)
-    at Object.<anonymous> (  ...  /exercises/07-logical-operators/exercises/not.js:10:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
++ PASS: Test 7
++ PASS: Test 8
++ PASS: Test 9
 ```
 
 ```js
@@ -106,8 +107,11 @@ UNCAUGHT: ReferenceError: _ is not defined
 // write a function that behaves the same as !
 //  ... but doesn't use !, only using ? :
 const not = (value) => {
-  return _ ? _ : _;
+  const isNot = Boolean(value);
+  const isFalse= isNot=== false;
+  return isFalse ? true : false;
 };
+
 
 const _1_expect = true;
 const _1_actual = not(0);
@@ -153,22 +157,20 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 ## /or.js 
 
-> incomplete 
+> pass 
 >
 > [review source](../../../exercises/07-logical-operators/exercises/or.js)
 
 ```txt
-UNCAUGHT: ReferenceError: _ is not defined
-    at or (  ...  /exercises/07-logical-operators/exercises/or.js:6:3)
-    at Object.<anonymous> (  ...  /exercises/07-logical-operators/exercises/or.js:10:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
++ PASS: Test 7
++ PASS: Test 8
++ PASS: Test 9
 ```
 
 ```js
@@ -177,7 +179,9 @@ UNCAUGHT: ReferenceError: _ is not defined
 // write a function that behaves the same as ||
 //  ... without using ||, only using ? :
 const or = (left, right) => {
-  return _ ? _ : _;
+  const parBoth = Boolean(left,right);
+  const isTrue=parBoth=== true;
+  return isTrue ? left : right;
 };
 
 const _1_expect = 0;
