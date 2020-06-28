@@ -43,3 +43,7 @@ global = 'bye!';
 
 const globalTest6 = global === 'bye!';
 console.assert(globalTest6, 'Test 9: global');
+
+
+
+
