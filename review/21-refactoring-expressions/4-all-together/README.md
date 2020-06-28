@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/28/2020, 1:06:40 PM 
+> 6/28/2020, 2:13:41 PM 
 
 ## [exercises](../../README.md)/[21-refactoring-expressions](../README.md)/4-all-together 
 
