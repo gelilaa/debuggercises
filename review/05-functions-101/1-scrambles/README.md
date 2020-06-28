@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/28/2020, 12:30:40 PM 
+> 6/28/2020, 1:06:40 PM 
 
 ## [exercises](../../README.md)/[05-functions-101](../README.md)/1-scrambles 
 
