@@ -9,12 +9,7 @@ const notAndA = (x, y) => {
 
 
 const notAndB = (x, y) => {
- if (!x ===!y){
-   return true;
-   
- }else {
-   return false;
- }
+return !(x || y);
  
 };
 
