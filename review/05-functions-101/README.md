@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/28/2020, 12:30:40 PM 
+> 6/28/2020, 1:06:40 PM 
 
 ## [exercises](../README.md)/05-functions-101 
 
@@ -25,6 +25,6 @@
   - [/6-local-global.js](./2-local-param-global/README.md#6-local-globaljs) - _pass_ 
   - [/6-parameter-local-global.js](./2-local-param-global/README.md#6-parameter-local-globaljs) - _incomplete_ 
   - [/7-parameter-local-global.js](./2-local-param-global/README.md#7-parameter-local-globaljs) - _pass_ 
-  - [/7-prameter-local-global.js](./2-local-param-global/README.md#7-prameter-local-globaljs) - _incomplete_ 
+  - [/7-prameter-local-global.js](./2-local-param-global/README.md#7-prameter-local-globaljs) - _pass_ 
   - [/8-prameter-local-global.js](./2-local-param-global/README.md#8-prameter-local-globaljs) - _pass_ 
   - [/extra-pure-functions.js](./2-local-param-global/README.md#extra-pure-functionsjs)  
