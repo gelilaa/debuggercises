@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/28/2020, 2:13:41 PM 
+> 8/11/2020, 12:04:03 PM 
 
 ## [exercises](../README.md)/09-block-scope 
 

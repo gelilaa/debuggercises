@@ -1,34 +1,26 @@
 # Debuggercises 
 
-> 6/28/2020, 2:13:41 PM 
+> 8/11/2020, 12:04:03 PM 
 
 ## [exercises](../../README.md)/[20-operator-precedence](../README.md)/1-literals 
 
-- [/1-coercion-and-comparing.js](#1-coercion-and-comparingjs) - _incomplete_ 
-- [/2-arithmetic.js](#2-arithmeticjs) - _incomplete_ 
-- [/3-logical-operators.js](#3-logical-operatorsjs) - _incomplete_ 
+- [/1-coercion-and-comparing.js](#1-coercion-and-comparingjs) - _pass_ 
+- [/2-arithmetic.js](#2-arithmeticjs) - _pass_ 
+- [/3-logical-operators.js](#3-logical-operatorsjs) - _pass_ 
 - [/4-all-together.js](#4-all-togetherjs) - _pass_ 
 ---
 
 ## /1-coercion-and-comparing.js 
 
-> incomplete 
+> pass 
 >
 > [review source](../../../exercises/20-operator-precedence/1-literals/1-coercion-and-comparing.js)
 
 ```txt
 + PASS: Step 0
-UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/20-operator-precedence/1-literals/1-coercion-and-comparing.js:14:15)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
++ PASS: Step 1
++ PASS: Step 2
++ PASS: Step 3
 ```
 
 ```js
@@ -45,19 +37,19 @@ console.assert(step0 === expected, 'Step 0');
 /*
 
 */
-const step1 = _;
+const step1 = 'number' === typeof Infinity;
 console.assert(step1 === expected, 'Step 1');
 
 /*
 
 */
-const step2 = _;
+const step2 = 'number'=== typeof NaN;
 console.assert(step2 === expected, 'Step 2');
 
 /*
 
 */
-const step3 = _;
+const step3 = true;
 console.assert(step3 === expected, 'Step 3');
 
 ```
@@ -68,23 +60,15 @@ console.assert(step3 === expected, 'Step 3');
 
 ## /2-arithmetic.js 
 
-> incomplete 
+> pass 
 >
 > [review source](../../../exercises/20-operator-precedence/1-literals/2-arithmetic.js)
 
 ```txt
 + PASS: Step 0
-UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/20-operator-precedence/1-literals/2-arithmetic.js:14:15)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
++ PASS: Step 1
++ PASS: Step 2
++ PASS: Step 3
 ```
 
 ```js
@@ -101,19 +85,19 @@ console.assert(Object.is(step0, expected), 'Step 0');
 /*
 
 */
-const step1 = _;
+const step1 = NaN;
 console.assert(Object.is(step1, expected), 'Step 1');
 
 /*
 
 */
-const step2 = _;
+const step2 = (null + 'adsf')- 0;
 console.assert(Object.is(step2, expected), 'Step 2');
 
 /*
 
 */
-const step3 = _;
+const step3 = -2345 - 'yes';
 console.assert(Object.is(step3, expected), 'Step 3');
 
 ```
@@ -124,23 +108,15 @@ console.assert(Object.is(step3, expected), 'Step 3');
 
 ## /3-logical-operators.js 
 
-> incomplete 
+> pass 
 >
 > [review source](../../../exercises/20-operator-precedence/1-literals/3-logical-operators.js)
 
 ```txt
 + PASS: Step 0
-UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/20-operator-precedence/1-literals/3-logical-operators.js:14:15)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
++ PASS: Step 1
++ PASS: Step 2
++ PASS: Step 3
 ```
 
 ```js
@@ -157,19 +133,19 @@ console.assert(step0 === expected, 'Step 0');
 /*
 
 */
-const step1 = _;
+const step1 = true && !false;
 console.assert(step1 === expected, 'Step 1');
 
 /*
 
 */
-const step2 = _;
+const step2 = typeof 'boolean' && true;
 console.assert(step2 === expected, 'Step 2');
 
 /*
 
 */
-const step3 = _;
+const step3 = !false && !false;
 console.assert(step3 === expected, 'Step 3');
 
 ```

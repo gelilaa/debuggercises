@@ -1,14 +1,14 @@
 # Debuggercises 
 
-> 6/28/2020, 2:13:41 PM 
+> 8/11/2020, 12:04:03 PM 
 
 ## [exercises](../../README.md)/[10-conditional-statements](../README.md)/1-execution-paths 
 
 - [/1-write-expected.js](#1-write-expectedjs) - _pass_ 
 - [/2-write-arguments.js](#2-write-argumentsjs) - _pass_ 
-- [/3-write-arguments.js](#3-write-argumentsjs) - _fail_ 
-- [/4-write-function.js](#4-write-functionjs) - _fail_ 
-- [/5-write-function.js](#5-write-functionjs) - _fail_ 
+- [/3-write-arguments.js](#3-write-argumentsjs) - _pass_ 
+- [/4-write-function.js](#4-write-functionjs) - _pass_ 
+- [/5-write-function.js](#5-write-functionjs) - _pass_ 
 ---
 
 ## /1-write-expected.js 
@@ -161,18 +161,18 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 ## /3-write-arguments.js 
 
-> fail 
+> pass 
 >
 > [review source](../../../exercises/10-conditional-statements/1-execution-paths/3-write-arguments.js)
 
 ```txt
-- FAIL: Test 1
-- FAIL: Test 2
-- FAIL: Test 3
-- FAIL: Test 4
++ PASS: Test 1
++ PASS: Test 2
++ PASS: Test 3
++ PASS: Test 4
 + PASS: Test 5
 + PASS: Test 6
-- FAIL: Test 7
++ PASS: Test 7
 + PASS: Test 8
 ```
 
@@ -197,20 +197,20 @@ const mystery = (a, b) => {
 
 // path 1
 const _1_expect = 'path 1';
-const _1_actual = mystery(0, null);
+const _1_actual = mystery(0, 10);
 console.assert(_1_actual === _1_expect, 'Test 1');
 
 const _2_expect = 'path 1';
-const _2_actual = mystery(false, 'hello');
+const _2_actual = mystery(5, 5);
 console.assert(_2_actual === _2_expect, 'Test 2');
 
 // path 2
 const _3_expect = 'path 2';
-const _3_actual = mystery(true, undefined);
+const _3_actual = mystery(1,true );
 console.assert(_3_actual === _3_expect, 'Test 3');
 
 const _4_expect = 'path 2';
-const _4_actual = mystery(1, -1);
+const _4_actual = mystery(0, false);
 console.assert(_4_actual === _4_expect, 'Test 4');
 
 // path 3
@@ -224,7 +224,7 @@ console.assert(_6_actual === _6_expect, 'Test 6');
 
 // path 4
 const _7_expect = 'path 4';
-const _7_actual = mystery(0, 12);
+const _7_actual = mystery('yes', 12);
 console.assert(_7_actual === _7_expect, 'Test 7');
 
 const _8_expect = 'path 4';
@@ -239,7 +239,7 @@ console.assert(_8_actual === _8_expect, 'Test 8');
 
 ## /4-write-function.js 
 
-> fail 
+> pass 
 >
 > [review source](../../../exercises/10-conditional-statements/1-execution-paths/4-write-function.js)
 
@@ -250,22 +250,22 @@ console.assert(_8_actual === _8_expect, 'Test 8');
 + PASS: Test 04
 + PASS: Test 05
 + PASS: Test 06
-- FAIL: Test 07
-- FAIL: Test 08
-- FAIL: Test 09
-- FAIL: Test 10
-- FAIL: Test 11
-- FAIL: Test 12
++ PASS: Test 07
++ PASS: Test 08
++ PASS: Test 09
++ PASS: Test 10
++ PASS: Test 11
++ PASS: Test 12
 ```
 
 ```js
 const mystery = (a, b) => {
   let result = '';
-  if (a || b) {
+  if (a && b) {
     result = 'path 1';
-  } else if (!a && !b) {
+  } else if (!(a||b)) {
     result = 'path 2';
-  } else if ((a || b) && typeof a === typeof b) {
+  } else if ( typeof a === typeof b) {
     result = 'path 3';
   } else  {
     result = 'path 4';
@@ -333,7 +333,7 @@ console.assert(_12_actual === _12_expect, 'Test 12');
 
 ## /5-write-function.js 
 
-> fail 
+> pass 
 >
 > [review source](../../../exercises/10-conditional-statements/1-execution-paths/5-write-function.js)
 
@@ -341,17 +341,17 @@ console.assert(_12_actual === _12_expect, 'Test 12');
 + PASS: Test 1
 + PASS: Test 2
 + PASS: Test 3
-- FAIL: Test 4
-- FAIL: Test 5
-- FAIL: Test 6
-- FAIL: Test 7
-- FAIL: Test 8
-- FAIL: Test 9
++ PASS: Test 4
++ PASS: Test 5
++ PASS: Test 6
++ PASS: Test 7
++ PASS: Test 8
++ PASS: Test 9
 ```
 
 ```js
 const mystery = (a, b) => {
-    if (a !==b) {
+    if (!(a || b)) {
         return 'path 1';
         
     }else if (typeof a === typeof b) {

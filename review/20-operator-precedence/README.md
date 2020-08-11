@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/28/2020, 2:13:41 PM 
+> 8/11/2020, 12:04:03 PM 
 
 ## [exercises](../README.md)/20-operator-precedence 
 
@@ -12,9 +12,9 @@
   - [/4-variables.js](./0-examples/README.md#4-variablesjs) - _pass_ 
   - [/5-variables.js](./0-examples/README.md#5-variablesjs) - _pass_ 
 - [/1-literals](./1-literals/README.md)
-  - [/1-coercion-and-comparing.js](./1-literals/README.md#1-coercion-and-comparingjs) - _incomplete_ 
-  - [/2-arithmetic.js](./1-literals/README.md#2-arithmeticjs) - _incomplete_ 
-  - [/3-logical-operators.js](./1-literals/README.md#3-logical-operatorsjs) - _incomplete_ 
+  - [/1-coercion-and-comparing.js](./1-literals/README.md#1-coercion-and-comparingjs) - _pass_ 
+  - [/2-arithmetic.js](./1-literals/README.md#2-arithmeticjs) - _pass_ 
+  - [/3-logical-operators.js](./1-literals/README.md#3-logical-operatorsjs) - _pass_ 
   - [/4-all-together.js](./1-literals/README.md#4-all-togetherjs) - _pass_ 
 - [/2-variables](./2-variables/README.md)
   - [/1-coercing-and-comparing.js](./2-variables/README.md#1-coercing-and-comparingjs) - _incomplete_ 

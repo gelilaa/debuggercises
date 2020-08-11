@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/28/2020, 2:13:41 PM 
+> 8/11/2020, 12:04:03 PM 
 
 ## [exercises](../README.md)/10-conditional-statements 
 
@@ -14,9 +14,9 @@
 - [/1-execution-paths](./1-execution-paths/README.md)
   - [/1-write-expected.js](./1-execution-paths/README.md#1-write-expectedjs) - _pass_ 
   - [/2-write-arguments.js](./1-execution-paths/README.md#2-write-argumentsjs) - _pass_ 
-  - [/3-write-arguments.js](./1-execution-paths/README.md#3-write-argumentsjs) - _fail_ 
-  - [/4-write-function.js](./1-execution-paths/README.md#4-write-functionjs) - _fail_ 
-  - [/5-write-function.js](./1-execution-paths/README.md#5-write-functionjs) - _fail_ 
+  - [/3-write-arguments.js](./1-execution-paths/README.md#3-write-argumentsjs) - _pass_ 
+  - [/4-write-function.js](./1-execution-paths/README.md#4-write-functionjs) - _pass_ 
+  - [/5-write-function.js](./1-execution-paths/README.md#5-write-functionjs) - _pass_ 
 - [/2-conditional-bodies](./2-conditional-bodies/README.md)
   - [/1-write-expected.js](./2-conditional-bodies/README.md#1-write-expectedjs) - _pass_ 
   - [/2-write-arguments.js](./2-conditional-bodies/README.md#2-write-argumentsjs) - _pass_ 
