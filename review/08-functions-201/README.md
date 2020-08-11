@@ -1,11 +1,11 @@
 # Debuggercises 
 
-> 6/28/2020, 1:06:40 PM 
+> 6/28/2020, 2:13:41 PM 
 
 ## [exercises](../README.md)/08-functions-201 
 
 - [/0-example.js](#0-examplejs) - _pass_ 
-- [/1-exercise.js](#1-exercisejs) - _fail_ 
+- [/1-exercise.js](#1-exercisejs) - _pass_ 
 - [/2-exercise.js](#2-exercisejs) - _pass_ 
 ---
 
@@ -92,7 +92,7 @@ console.assert(_3_actualLoop === _3_expect, 'Test 3 Loop');
 
 ## /1-exercise.js 
 
-> fail 
+> pass 
 >
 > [review source](../../exercises/08-functions-201/1-exercise.js)
 
@@ -104,7 +104,7 @@ console.assert(_3_actualLoop === _3_expect, 'Test 3 Loop');
 + PASS: Test 3 A
 + PASS: Test 3 B
 + PASS: Test 4 A
-- FAIL: Test 4 B
++ PASS: Test 4 B
 ```
 
 ```js
@@ -119,12 +119,7 @@ const notAndA = (x, y) => {
 
 
 const notAndB = (x, y) => {
- if (!x ===!y){
-   return true;
-   
- }else {
-   return false;
- }
+return !(x || y);
  
 };
 

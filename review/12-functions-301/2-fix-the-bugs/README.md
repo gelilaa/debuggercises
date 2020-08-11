@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/28/2020, 1:06:40 PM 
+> 6/28/2020, 2:13:41 PM 
 
 ## [exercises](../../README.md)/[12-functions-301](../README.md)/2-fix-the-bugs 
 
