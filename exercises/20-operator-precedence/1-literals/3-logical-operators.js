@@ -11,17 +11,17 @@ console.assert(step0 === expected, 'Step 0');
 /*
 
 */
-const step1 = _;
+const step1 = true && !false;
 console.assert(step1 === expected, 'Step 1');
 
 /*
 
 */
-const step2 = _;
+const step2 = typeof 'boolean' && true;
 console.assert(step2 === expected, 'Step 2');
 
 /*
 
 */
-const step3 = _;
+const step3 = !false && !false;
 console.assert(step3 === expected, 'Step 3');

@@ -8,7 +8,7 @@ const greaterThanOrEqualTo = (left, right) => left >= right;
 
 const _1_a = '1';
 const _1_b = 1;
-const _1_expect = _;
+const _1_expect = true;
 const _1_native = greaterThanOrEqualTo(_1_a, _1_b);
 console.assert(_1_expect === _1_native, 'Test 1');
 
